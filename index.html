@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/c63551c88e.js" crossorigin="anonymous"></script>
     <!-- Bootsrtap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -39,7 +39,8 @@
                             <a class="nav-link" href="#course">Course</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/icons/profile.png" alt=""> </a>
+                            <a class="nav-link" href="#"><img class="profile-img" src="images/icons/profile.png" alt="">
+                            </a>
                         </li>
 
                     </ul>
@@ -48,47 +49,148 @@
         </nav>
     </header>
 
-    <main class="main custom-container">
-        <section class="top custom">
-            <h2 class="heading mb-4">Top Player </h2>
+    <main class="main">
+        <section class="top  custom-container">
+            <h2 class="heading mb-4">Top Players </h2>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-4">
                 <div class="col d-flex align-items-center flex-column flex-sm-row ">
                     <img class="player-img me-3" src="images/players/player-1.png" alt="player">
                     <h4>Abubakkar </h4>
                 </div>
-           
-            <div class="col d-flex align-items-center flex-column flex-sm-row ">
-                <img class="player-img me-3" src="images/players/player-2.png" alt="player">
-                <h4>Abusiddik </h4>
-            </div>
-           
-            <div class="col d-flex align-items-center flex-column flex-sm-row ">
-                <img class="player-img me-3" src="images/players/player-3.png" alt="player">
-                <h4>jhon Doe</h4>
-            </div>
-        
-            <div class="col d-flex align-items-center flex-column flex-sm-row ">
-                <img class="player-img me-3" src="images/players/player-4.png" alt="player">
-                <h4>Harun sala   </h4>
-            </div>
-           
-            <div class="col d-flex align-items-center flex-column flex-sm-row ">
-                <img class="player-img me-3" src="images/players/player-5.png" alt="player">
-                <h4> kasem sala </h4>
-            
-            </div>
-            <div class="col d-flex align-items-center flex-column flex-sm-row ">
-                <img class="player-img me-3" src="images/players/player-6.png" alt="player">
-                <h4> bokkar </h4>
-            </div>
-            </div>
 
+                <div class="col d-flex align-items-center flex-column flex-sm-row ">
+                    <img class="player-img me-3" src="images/players/player-2.png" alt="player">
+                    <h4>Abusiddik </h4>
+                </div>
+
+                <div class="col d-flex align-items-center flex-column flex-sm-row ">
+                    <img class="player-img me-3" src="images/players/player-3.png" alt="player">
+                    <h4>jhon Doe</h4>
+                </div>
+
+                <div class="col d-flex align-items-center flex-column flex-sm-row ">
+                    <img class="player-img me-3" src="images/players/player-4.png" alt="player">
+                    <h4>Harun sala </h4>
+                </div>
+
+                <div class="col d-flex align-items-center flex-column flex-sm-row ">
+                    <img class="player-img me-3" src="images/players/player-5.png" alt="player">
+                    <h4> kasem sala </h4>
+
+                </div>
+                <div class="col d-flex align-items-center flex-column flex-sm-row ">
+                    <img class="player-img me-3" src="images/players/player-6.png" alt="player">
+                    <h4> bokkar </h4>
+                </div>
+            </div>
+            <hr class="bg-secondary my-4 horizontal">
+
+            <div class="blogs">
+                <h2 class="heading mb-4 mt-5">Top Blogs </h2>
+                <div class="row g-4  row-cols-lg-2  row-cols-sm-2">
+                    <div class="blog d-flex gap-3 flex-column flex-md-row">
+                        <div class="blog__thumbnail"><img class="blog__img" src="images/blogs/blog-1.png"
+                                alt="blog-img"></div>
+                        <div class="blog__info">
+                            <h3 class="fs-5">13 of My Favorite UI/UX Goodies</h3>
+                            <span>Released: 13 june 2021 </span>
+                            <p>By <span class="blog__author"> AB Siddik </span></p>
+                        </div>
+                    </div>
+                    <div class="blog d-flex gap-3 flex-column flex-md-row">
+                        <div class="blog__thumbnail"><img class="blog__img" src="images/blogs/blog-2.png"
+                                alt="blog-img"></div>
+                        <div class="blog__info">
+                            <h3 class="fs-5">UI cheat sheet: list vs grids</h3>
+                            <span>Released: 13 june 2021 </span>
+                            <p>By <span class="blog__author"> AB Siddik </span></p>
+                        </div>
+                    </div>
+                    <div class="blog d-flex gap-3 flex-column flex-md-row">
+                        <div class="blog__thumbnail"><img class="blog__img" src="images/blogs/blog-3.png"
+                                alt="blog-img"></div>
+                        <div class="blog__info">
+                            <h3 class="fs-5">
+                                7 typography tips for interface design</h3>
+                            <span>Released: 13 june 2021 </span>
+                            <p>By <span class="blog__author"> AB Siddik </span></p>
+                        </div>
+                    </div>
+                    <div class="blog d-flex gap-3 flex-column flex-md-row">
+                        <div class="blog__thumbnail"><img class="blog__img" src="images/blogs/blog-4.png"
+                                alt="blog-img"></div>
+                        <div class="blog__info">
+                            <h3 class="fs-5">Your logo
+                                is copied</h3>
+                            <span>Released: 13 june 2021 </span>
+                            <p>By <span class="blog__author"> AB Siddik </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="blogs">
-
+        <section class="course mt-4 custom-container">
+            <div class="course-container">
+                <div class="course">
+                    <img class="img-fluid" src="images/courses/course-1.png" alt="course">
+                    <h3 class="course__title mt-1">React - The Complete Guide 2020 </h3>
+                    <span class="course__author"> Reed Krakoff.</span>
+                    <div class="course__info d-flex align-items-center mt-4 justify-content-between">
+                        <div class="course__rating">
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="far fa-star text-black-50"></i>
+                            <span> 4.5</span>
+                        </div>
+                        <div class="course__duration">
+                            <i class="fas fa-clock"></i>
+                            <span>01:50hr </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img class="img-fluid" src="images/courses/course-2.png" alt="course">
+                    <h3 class="course__title mt-1">Powerpoint 2020 Master Powerpoint Cour </h3>
+                    <span class="course__author"> Reed Krakoff.</span>
+                    <div class="course__info d-flex align-items-center mt-4 justify-content-between">
+                        <div class="course__rating">
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="far fa-star text-black-50"></i>
+                            <span> 4.5</span>
+                        </div>
+                        <div class="course__duration ">
+                            <i class="fas fa-clock"></i>
+                            <span>01:50hr </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img class="img-fluid" src="images/courses/course-3.png" alt="course">
+                    <h3 class="course__title mt-1">The Complete JavaScript Course 2020 </h3>
+                    <span class="course__author"> Reed Krakoff.</span>
+                    <div class="course__info d-flex align-items-center mt-4 justify-content-between">
+                        <div class="course__rating">
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="fas fa-star icon"></i>
+                            <i class="far fa-star text-black-50"></i>
+                            <span> 4.5</span>
+                        </div>
+                        <div class="course__duration">
+                            <i class="fas fa-clock"></i>
+                            <span>01:50hr </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
