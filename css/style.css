@@ -92,7 +92,17 @@ header.header {
     color: #FFC014;
 }
 
+.course__rating i{ 
+margin-right: -5px;
+font-size: 14px;
+}
+
+.course__rating i + span{
+    margin-left: 5px;
+}
 .course__duration{
     background-color: #FFE4E8;
     color: #FF4A60;
+   padding: 5px 13px;
+   border-radius: 20px;
 }
