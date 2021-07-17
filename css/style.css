@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #F3F1FF;
+    /*background-color: #F3F1FF;*/
 }
 
 .custom-container {
@@ -19,12 +19,18 @@ body {
     margin: 35px auto 20px;
 }
 
+.navbar-toggler-icon{
+   color: #fff !important;
+}
+
+
 h2.heading {
     font-size: 30px;
     color: #5148F9;
 }
 
-header.header {
+header.header .bg-custom-color {
+    z-index: 99999;
     background-color: #5148F9;
 }
 
